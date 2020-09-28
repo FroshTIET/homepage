@@ -1,0 +1,19 @@
+.footer-content{
+    width: 40%;
+    margin: 30px auto;
+    /* margin-bottom: 100px; */
+}
+
+#footer{
+    padding: 20px 0;
+}
+
+@media(max-width: 768px){
+    .footer-content{
+        width: 100%;
+    }
+}
+.frosh-navbar{
+    padding:35px;
+
+}

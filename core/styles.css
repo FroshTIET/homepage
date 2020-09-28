@@ -1,0 +1,504 @@
+body{
+    /* padding: 20px; */
+    background-color: #141414;
+    height: 100vh;
+    width: 100vw;
+}
+
+.col-lg-4, .col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+html, body{
+    overflow-x: hidden;
+}
+.navbar-brand img{
+  width: 150px;
+}
+nav{
+  background: none;
+  position: absolute;
+  z-index: 10;
+}
+
+html {
+  cursor: url('./assets/Asset.png'), auto;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    border: 0;
+    font-family: Roboto;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.card-1{
+    background: url('./assets/Manan.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background: url('./assets/Rhea.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background: url('./assets/IMG_20190921_191409 - AARISH SODHI.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-4{
+        background: url('./assets/Anand - Anand Soneji.jpg');
+        /*background-position: center;*/
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+.card-5{
+    background: url('./assets/21BB3A7C-B48D-427C-B32D-868E40473592 - Bhavleen Ahuja.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-6{
+    background: url('./assets/IMG_20200812_164120 - chealsy sood.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-7{
+    background: url('./assets/IMG_20191020_201021_162 - Dev Kewlani.jpg');
+    /*background-position: center;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-8{
+    background: url('./assets/27E82492-0B7C-492C-A638-D88538A906CC - DEVYANI AGGARWAL.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-9{
+    background: url('./assets/IMG-20180622-WA0118 - divyanshi sachdev (NXPowerLite Copy).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-10{
+    background: url('./assets/DSC_5654 - Ishmeet Lamba.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-11{
+    background: url('./assets/B9775C8E-A5DE-43F2-8EEF-378527C5C75A - KANAV KANT.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-12{
+    background: url('./assets/KSHITIJ.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-13{
+    background: url('./assets/manan garg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-14{
+    background: url('./assets/IMG_6180-2 - Mehul Verma.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-15{
+    background: url('./assets/2FF3494A-8DA1-4885-B8EA-1B5D422B5370 - Mohammed Zachariah.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-16{
+    background: url('./assets/IMG_20200812_125327 - Finding Elephants.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-17{
+    background: url('./assets/20190618_040545_0000 - PIYUSH SRIVASTAVA (NXPowerLite Copy).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-18{
+    background: url('./assets/PhotoGrid_1560935598476\ -\ Saksham\ Ratra\ \(NXPowerLite\ Copy\).jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-19{
+    background: url('./assets/2 - Saud Adnan.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-20{
+    background: url('./assets/ID-card Profile - Yash Goien (NXPowerLite Copy).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    color: #303030;
+}
+.card h1{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.last-name{
+    margin-bottom: 40px;
+}
+.details{
+    padding-top: 120px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.footer i{
+    font-size: 2rem;
+}
+
+.footer a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.card h4{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+}
+.overlay{
+    border-radius: 18px;
+    display: flex;
+    height: 100%;
+    border: 0px;
+    width: 100%;
+    background: rgba(100, 252, 242, 0.5);
+    padding: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+.overlay:hover{
+    opacity: 100%;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    padding-bottom: 20px;
+}
+
+
+.theme{
+    color: rgba(100, 252, 242)
+}
+.mentors-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+    color: white;
+}
+
+@media(max-width: 992px){
+    .card{
+        /* margin-bottom: 20px; */
+        margin: 20px auto;
+    }
+    .mentors-title{
+        font-size: 5rem;
+    }
+}
+
+
+/* background */
+
+/* background */
+
+/* body,
+html {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+} */
+
+canvas {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -3;
+    top: 0;
+    left: 0;
+  }
+  
+  .landscape {
+    z-index: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -2;
+  }
+  .landscape .landscapeItem {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -moz-transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
+    -o-transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
+    -webkit-transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
+    -ms-transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
+    transition: 1s bottom cubic-bezier(0.33, 0, 0, 1);
+  }
+  .landscape .landscapeItem.animateIn {
+    bottom: 0px;
+  }
+  .landscape .landscapeItem.animateOut {
+    bottom: -100%;
+  }
+  .landscape .landscapeItem.mountains.background {
+    -moz-transition: 1s cubic-bezier(0.33, 0, 0, 1);
+    -o-transition: 1s cubic-bezier(0.33, 0, 0, 1);
+    -webkit-transition: 1s cubic-bezier(0.33, 0, 0, 1);
+    -ms-transition: 1s cubic-bezier(0.33, 0, 0, 1);
+    transition: 1s cubic-bezier(0.33, 0, 0, 1);
+    bottom: 0;
+    opacity: 0;
+    z-index: 1;
+    background-color: transparent;
+    background-image: url("https://assets.wrap.co/asset/d29ccba9-5240-45d7-94e6-86f68544c01d/original?1477070083");
+  }
+  .landscape .landscapeItem.mountains.background.animateIn {
+    opacity: 0.6;
+    background-blend-mode: lighten;
+    background-color: rgba(0, 255, 255, 0.1);
+  }
+  .landscape .landscapeItem.mountains.midground {
+    z-index: 2;
+    background-image: url("https://assets.wrap.co/asset/f561cc33-6c27-4789-b1ac-55e883856ee6/original?1477070083");
+  }
+  .landscape .landscapeItem.mountains.foreground {
+    z-index: 3;
+    background-image: url("https://assets.wrap.co/asset/79dfa679-451e-4916-be63-14b27380cf11/original?1477070083");
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(1) {
+    -moz-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    -webkit-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(2) {
+    -moz-transition-delay: 0.7s;
+    -o-transition-delay: 0.7s;
+    -webkit-transition-delay: 0.7s;
+    -ms-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(3) {
+    -moz-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    -webkit-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(4) {
+    -moz-transition-delay: 0.9s;
+    -o-transition-delay: 0.9s;
+    -webkit-transition-delay: 0.9s;
+    -ms-transition-delay: 0.9s;
+    transition-delay: 0.9s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(5) {
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(6) {
+    -moz-transition-delay: 1.1s;
+    -o-transition-delay: 1.1s;
+    -webkit-transition-delay: 1.1s;
+    -ms-transition-delay: 1.1s;
+    transition-delay: 1.1s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(7) {
+    -moz-transition-delay: 1.2s;
+    -o-transition-delay: 1.2s;
+    -webkit-transition-delay: 1.2s;
+    -ms-transition-delay: 1.2s;
+    transition-delay: 1.2s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(8) {
+    -moz-transition-delay: 1.3s;
+    -o-transition-delay: 1.3s;
+    -webkit-transition-delay: 1.3s;
+    -ms-transition-delay: 1.3s;
+    transition-delay: 1.3s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(9) {
+    -moz-transition-delay: 1.4s;
+    -o-transition-delay: 1.4s;
+    -webkit-transition-delay: 1.4s;
+    -ms-transition-delay: 1.4s;
+    transition-delay: 1.4s;
+  }
+  .landscape .landscapeItem.mountains:nth-last-child(10) {
+    -moz-transition-delay: 1.5s;
+    -o-transition-delay: 1.5s;
+    -webkit-transition-delay: 1.5s;
+    -ms-transition-delay: 1.5s;
+    transition-delay: 1.5s;
+  }
+  .landscape .landscapeItem.trees.background {
+    z-index: 4;
+    background-image: url("https://assets.wrap.co/asset/935aa828-a719-4e32-9c27-f79010a263fc/original?1477070083");
+  }
+  .landscape .landscapeItem.trees.midground {
+    z-index: 5;
+    background-image: url("https://assets.wrap.co/asset/d9134d4e-c20b-4b0a-9275-1b711a6a5119/original?1477070083");
+  }
+  .landscape .landscapeItem.trees.foreground {
+    z-index: 6;
+    background-image: url("https://assets.wrap.co/asset/7306a5a6-124e-42cf-b4cf-2e9e2da26fdd/original?1477070083");
+  }
+  .landscape .landscapeItem.trees:nth-last-child(1) {
+    -moz-transition-delay: 0.1s;
+    -o-transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(2) {
+    -moz-transition-delay: 0.2s;
+    -o-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(3) {
+    -moz-transition-delay: 0.3s;
+    -o-transition-delay: 0.3s;
+    -webkit-transition-delay: 0.3s;
+    -ms-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(4) {
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    -webkit-transition-delay: 0.4s;
+    -ms-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(5) {
+    -moz-transition-delay: 0.5s;
+    -o-transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    -ms-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(6) {
+    -moz-transition-delay: 0.6s;
+    -o-transition-delay: 0.6s;
+    -webkit-transition-delay: 0.6s;
+    -ms-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(7) {
+    -moz-transition-delay: 0.7s;
+    -o-transition-delay: 0.7s;
+    -webkit-transition-delay: 0.7s;
+    -ms-transition-delay: 0.7s;
+    transition-delay: 0.7s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(8) {
+    -moz-transition-delay: 0.8s;
+    -o-transition-delay: 0.8s;
+    -webkit-transition-delay: 0.8s;
+    -ms-transition-delay: 0.8s;
+    transition-delay: 0.8s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(9) {
+    -moz-transition-delay: 0.9s;
+    -o-transition-delay: 0.9s;
+    -webkit-transition-delay: 0.9s;
+    -ms-transition-delay: 0.9s;
+    transition-delay: 0.9s;
+  }
+  .landscape .landscapeItem.trees:nth-last-child(10) {
+    -moz-transition-delay: 1s;
+    -o-transition-delay: 1s;
+    -webkit-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+    transition-delay: 1s;
+  }
+  .landscape .landscapeItem.topographic {
+    transition: 1s opacity cubic-bezier(0.33, 0, 0, 1);
+    transition-delay: 2s;
+    opacity: 0;
+    bottom: 0;
+    z-index: 7;
+    background-image: url("https://assets.wrap.co/asset/b62cefa-1b65-4fa5-91db-cd360855b0f6/original?1477070083");
+  }
+  .landscape .landscapeItem.topographic.animateIn {
+    opacity: 0.2;
+  }
+  .landscape .landscapeItem.topographic.animateOut {
+    opacity: 0;
+  }
+
+  .custom-overlay{
+    background: rgba(20, 20, 20, 0.6);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+  }

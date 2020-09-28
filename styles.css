@@ -1,0 +1,573 @@
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.alert{
+   border-radius: 0 !important;
+   margin-bottom: 0 !important;
+}
+
+html{
+    cursor: url('./assets/Asset.png'), auto;
+}
+
+html, body{
+    overflow-x: hidden;
+    max-width:100%;
+}
+
+#videoBG{
+    z-index: -2;
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+}
+@font-face{
+    font-family: 'Born-Losers';
+    src: url('./assets/Fonts/BornLosersSans-Regular.otf');
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Great-Wishes';
+    src: url('./assets/Fonts/Great Wishes.otf');
+    font-style: normal;
+}
+
+.anim-typewriter{
+    font-family: 'Bebas Neue', cursive;
+    line-height: 120px;
+}
+
+.navbar-brand img{
+    width: 150px;
+}
+.landing{
+    height: 100vh;
+    /* background: url(./assets/85072451_2392900684144480_495752690404425728_o.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(31, 40, 51, 0.8); */
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.nav-item{
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+/* .nav{
+    background: rgba(11, 12, 16, 0.4);
+} */
+
+.tagline{
+    font-family: 'Bebas Neue', cursive;
+    flex: 1;
+    text-align: center;
+    font-size: 800%;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+.tagline button{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background: none;
+    border: 1px solid #66FCF1;
+    color: white;
+    outline: none;
+    border-radius: 18cm;
+}
+
+
+.tagline span{
+    color: #66FCF1; 
+    font-weight: 300;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.tagline i{
+    font-size: 3rem;
+    /* cursor: pointer; */
+}
+
+.about-us{
+    color: white;
+    font-family: Roboto;
+    font-weight: 100;
+    background: url(./assets/compute-ea4c57a4.png);
+    background-attachment: fixed;
+}
+
+.about-content{
+    font-size: 1.2rem;
+}
+.overlay{
+    background-color: rgba(31, 40, 51, 0.8);
+    height: 100%;
+}
+.identity-overlay{
+    background-color: rgba(19, 19, 19, 0.6);
+    height: 100%;
+}
+
+.theme{
+    color: #66FCF1;
+}
+
+.our-identity{
+    /* height: 100vh; */
+    background: url('./assets/Annotation 2020-08-15 215735.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.our-identity h1{
+    font-weight: 700;
+}
+.identity{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.identity i{
+    font-size: 2.5rem;
+}
+.identity h4{
+    font-size: 2rem;
+}
+
+.identity p{
+    opacity: 0.6;
+    font-size: 1.1rem;
+}
+.identity-item{
+    width:400px;
+}
+
+.cards{
+    margin-top: 40px;
+}
+
+.our-team{
+    background: url('./assets/compute-ea4c57a4.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-team h1 span{
+    font-weight: 700;
+    font-size: .5;
+}
+
+.our-team-content{
+    padding-top: 40px;
+}
+
+.our-team-content p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+
+/* Card customization */
+.my-card{
+    height: 400px;
+    width: 300px;
+    /* background: url('');s */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    transition: 0.4s;
+   
+    margin-top: 10px;
+    margin-bottom: 40px;
+    /* cursor: pointer; */
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    /* background: #1f2833; */
+}
+
+.card-1{
+    background: url('https://media.giphy.com/media/xTiTnkZoCSqp3Dn6yk/giphy.gif');
+}
+.card-2{
+    background: url('https://media.giphy.com/media/kog2J5GfDdPoY/giphy.gif');
+}
+.card-3{
+    background: url('https://media.giphy.com/media/YrNE3JZ8rI7TP7Hw0d/giphy.gif');
+}
+
+.custom-overlay{
+    border-radius: 18px;
+    height: 100%;
+    width: 100%;
+    background: rgba(31, 40, 51, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stareve-overlay{
+    border-radius: 20px;
+    background-color: rgba(31, 40, 51, 0.4);
+}
+
+
+.card_title p{
+    font-size: 6rem;
+    color: white;
+    /* font-weight: 700; */
+    /* font-family: 'Leckerli One', cursive; */
+    font-family: 'Born-Losers';
+    text-transform: uppercase;
+    /* font-weight: 700; */
+}
+
+
+.my-card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+/* END */
+
+.contact-us{
+    background: url('./assets/Annotation 2020-08-15 215735.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 100vh; */
+}
+.contact-us h1 span{
+    font-weight: 700;
+}
+
+.overlay-2{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(31, 40, 51, 0.9);
+}
+
+.contact-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.contact-us .container{
+    height: 100%;
+}
+
+.form-contact h4{
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+.contact-us input{
+    height: 50px;
+}
+
+.contact-us input{
+    background: #1F2833;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.contact-us textarea{
+    border-radius: 10px;
+    background: #1F2833;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    color: white;
+    resize: none;
+}
+
+.contact-us input:hover{
+    background: #1F2833;
+}
+
+.contact-us button{
+    /* width: 100%; */
+    font-size: 1.3rem;
+    padding: 10px 60px;
+    background: #66FCF1;
+    /* border: 1px solid #66FCF1; */
+    /* color: white; */
+    color: #1F2833;
+    border: none;
+    border-radius: 25px;
+}
+
+.contact-us iframe{
+    width: 300px;
+    height: 300px;
+}
+.footer-content{
+    padding: 100px;
+}
+.links{
+    
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    transition: 0.4s;
+}
+
+.links a:hover{
+    background: #66FCF1;
+    color: #1F2833;
+}
+
+.footer p{
+    margin: 0;
+}
+
+.copyright:hover{
+    color: #66FCF1;
+    /* cursor: pointer; */
+}
+
+.events{
+    /* height: 60vh; */
+    /* border-top: 4px solid #1F2833;
+    border-bottom: 4px solid #1F2833; */
+    /* background: url('./assets/3131118.jpg'); */
+    background: url('./assets/Annotation 2020-08-15 215735.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay-evestart{
+    padding: 0;
+    margin: 0;
+    background: rgba(31, 40, 51, 0.6);
+}
+
+.events .col-lg-6{
+}
+
+.starter{
+    /* padding: none; */
+    padding: 30px 40px 30px 10px;
+    /* cursor: pointer; */
+}
+
+.evework{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 20px; */
+    padding: 30px 10px 30px 40px;
+    /* cursor: pointer; */
+}
+.eve-card, .start-card{
+    transform: scale(0.88, 0.88);
+    /* background: red; */
+    border-radius: 20px;   
+    transition: 0.5s;
+}
+.eve-card:hover, .start-card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22);
+  }
+.eve-card{
+    background: url('./assets/classic-blue-background-theme_23-2148442822.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.start-card{
+    background: url('./assets/abstract-wallpaper-fluid-style_23-2148455811.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.evetext, .starttext{
+    margin: 100px 100px;
+    font-family: 'Great-Wishes';
+    /* font-weight: 700; */
+    color: white;
+    font-size: 4rem;
+    transition: 0.4s;
+}
+
+@media(max-width: 992px){
+    nav{
+        background: rgba(11, 12, 16, 0.4);
+    }
+    .tagline{
+        font-size: 200%;
+    }
+    .contact-us{
+        text-align: center;
+    }
+    .contact-content{
+        margin: auto;
+    }
+    .follow{
+        margin-top: 50px;
+    }
+    .evetext, .starttext{
+        font-size: 2rem;
+    }
+
+    .evework, .starter{
+        padding: 20px 50px;
+    }
+    .anim-typewriter{
+        line-height: 35px;
+    }
+    #videoBG{
+        z-index: -2;
+        position: fixed;
+        overflow: hidden;
+        width: auto;
+        height: 100vh;
+    }
+}
+
+
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: rgba(31, 40, 51, 0.8);
+    /*background-image: url('');*/
+  }
+  
+  .unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.bg-custom {
+    background-color: #222;
+    /* height: 6338px; */
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+  }
+  #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  #loader {
+      display: block;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #9370DB;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+  }
+  #loader:before {
+      content: "";
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #BA55D3;
+      -webkit-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite;
+  }
+  #loader:after {
+      content: "";
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-top-color: #FF00FF;
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite;
+  }
+  @-webkit-keyframes spin {
+      0%   {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+      }
+      100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+      }
+  }
+  @keyframes spin {
+      0%   {
+          -webkit-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+      }
+      100% {
+          -webkit-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+      }
+  }
+

@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentors</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel='icon' href='./assets/favicon.png' type='image/png'>
+</head>
+
+<body>
+    <nav class="p-3 d-none d-md-block">
+        <a class="navbar-brand" href="/"><img src="./assets/FROSH2020_logo_white.png" alt=""></a>
+  
+        <!-- <div class="navbar-nav  ml-auto">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    
+                  </div> -->
+  
+     </nav>
+    <div class="custom-overlay"></div>
+    <canvas id="bgCanvas"></canvas><canvas id="terrainCanvas"></canvas>
+    <div class="landscape">
+        <div class="landscapeItem mountains background"></div>
+        <div class="landscapeItem mountains midground"></div>
+        <div class="landscapeItem mountains foreground"></div>
+        <div class="landscapeItem trees background"></div>
+        <div class="landscapeItem trees midground"></div>
+        <div class="landscapeItem trees foreground"></div>
+    </div>
+    <div class="container">
+        <h1 class="text-center mentors-title py-4">MENTORS<span class="theme">.</span></h1>
+        <div class="row">
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-1">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Aaryan</h1>
+                            <h1 class="last-name">Arora</h1>
+                            <div class="footer">
+                                <h4>ECE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/aaryan-arora-0b79a51b1"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-2">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Aashima</h1>
+                            <h1 class="last-name">Kapoor</h1>
+                            <div class="footer">
+                                <h4>CSE Mentor</h4>
+                                <a href="http://linkedin.com/in/aashima-kapoor-0647271a7"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-3">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Aayush</h1>
+                            <h1 class="last-name">Bhatia</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-4">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Akshara</h1>
+                            <h1 class="last-name">Khurana</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-5">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Anshkirat</h1>
+                            <h1 class="last-name">Singh</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/anshkirat-singh-dhanju-b871831b1"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-6">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Aradhya</h1>
+                            <h1 class="last-name">Sharma</h1>
+                            <div class="footer">
+                                <h4>CIE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/aradhya-sharma-05982b193"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-7">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Arnaja</h1>
+                            <h1 class="last-name">Banerjee</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="www.linkedin.com/in/arnaja-banerjee,ok"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-8">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Arsh</h1>
+                            <h1 class="last-name">Vohra</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/arsh-vohra-b942a91ab"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-9">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Arush</h1>
+                            <h1 class="last-name">Aggarwal</h1>
+                            <div class="footer">
+                                <h4>CHE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/arush-aggarwal-168809193"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-10">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Avnoor</h1>
+                            <h1 class="last-name">Singh</h1>
+                            <div class="footer">
+                                <h4>ECE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/avnoor-singh-413591192/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-11">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Deepansh</h1>
+                            <h1 class="last-name">Arora</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/deepanshi-garg-399312196/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-12">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Deepanshi</h1>
+                            <h1 class="last-name">Garg</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-13">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Dipanshu</h1>
+                            <h1 class="last-name">Goyal</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/dipanshu-goyal-b5100b195/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-14">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Divya</h1>
+                            <h1 class="last-name">Jain</h1>
+                            <div class="footer">
+                                <h4>ECEM Mentor</h4>
+                                <a href="https://www.linkedin.com/in/divya-jain-b581931b4"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-15">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Divyanshu</h1>
+                            <h1 class="last-name">Shukla</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-16">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Eshneet</h1>
+                            <h1 class="last-name">Arora</h1>
+                            <div class="footer">
+                                <h4>ELE Mentor</h4>
+                                <a href="http://linkedin.com/in/eshneet-kaur-arora-3ba665191"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-17">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Gursangat</h1>
+                            <h1 class="last-name">Singh</h1>
+                            <div class="footer">
+                                <h4>CSE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/gursangat-singh-284602185"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-18">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Gursimran</h1>
+                            <h1 class="last-name">Singh</h1>
+                            <div class="footer">
+                                <h4>ECE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/gursimran-singh-b590971a5"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-19">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Harshita</h1>
+                            <h1 class="last-name">Bansal</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/harshitabansal/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-20">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Ishita</h1>
+                            <h1 class="last-name">Sheoran</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/ishita-sheoran-76660719b"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-21">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Kanishk</h1>
+                            <h1 class="last-name">Chawla</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/kanishk-chawla-652815194/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-22">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Khushi</h1>
+                            <h1 class="last-name">Goel</h1>
+                            <div class="footer">
+                                <h4>CSBS Mentor</h4>
+                                <a href="https://www.linkedin.com/mwlite/in/khushi-goel-730842190"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-23">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Kkhyati</h1>
+                            <h1 class="last-name">Suri</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/kkhyati-suri-9947051b0"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-24">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Lekha</h1>
+                            <h1 class="last-name">Revankar</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="http://linkedin.com/in/lekha-revankar-8598391a9"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-25">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Manvi</h1>
+                            <h1 class="last-name">Gumber</h1>
+                            <div class="footer">
+                                <h4>CSBS Mentor</h4>
+                                <a href="https://www.linkedin.com/in/manvi-gumber-b26632191"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-26">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Meghna</h1>
+                            <h1 class="last-name">Rai</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/meghna-rai-ba81331b4/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-27">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Mihir</h1>
+                            <h1 class="last-name">Bhise</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/mihir-bhise-053760195"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-28">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Mini</h1>
+                            <h1 class="last-name">Bisaria</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-29">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Nimish</h1>
+                            <h1 class="last-name">Shangle</h1>
+                            <div class="footer">
+                                <h4>MTX Mentor</h4>
+                                <a href="https://www.linkedin.com/in/nimish-shangle-56161a190/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-30">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Nishchita</h1>
+                            <h1 class="last-name">Khera</h1>
+                            <div class="footer">
+                                <h4>EIC Mentor</h4>
+                                <a href="https://www.linkedin.com/mwlite/in/nishchita-khera-618523190"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-31">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Parikshit</h1>
+                            <h1 class="last-name">Singh</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/parikshit-singh-08a1411b4"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-32">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Parth</h1>
+                            <h1 class="last-name">Gilotra</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/parth-gilotra-575369145"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-33">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Prajwal</h1>
+                            <h1 class="last-name">Sharma</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/prajwal-sharma-b397b91b3"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-34">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Pranav</h1>
+                            <h1 class="last-name">Tushar</h1>
+                            <div class="footer">
+                                <h4>EIC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/pranav-tushar"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-35">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Pranjal</h1>
+                            <h1 class="last-name">Pandit</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-36">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Raghav</h1>
+                            <h1 class="last-name">Dhingra</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="http://linkedin.com/in/raghav-dhingra-3333831b3"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-37">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Ramya</h1>
+                            <h1 class="last-name">Srinivasan</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-38">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Raunaq</h1>
+                            <h1 class="last-name">Jain</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/raunaq-jain-ba276b1a0"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-39">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Rishab</h1>
+                            <h1 class="last-name">Aggarwal</h1>
+                            <div class="footer">
+                                <h4>ENC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/rishab-aggarwal"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-40">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Rishab</h1>
+                            <h1 class="last-name">Jain</h1>
+                            <div class="footer">
+                                <h4>MTX Mentor</h4>
+                                <a href="http://linkedin.com/in/rishab-jain-6313b9192"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-41">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Rishabh</h1>
+                            <h1 class="last-name">Kumar</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/rishabh-kumar-992aa8193/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-42">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Rishit</h1>
+                            <h1 class="last-name">Arora</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/rishit-arora-0547b81b3"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-43">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Rohit</h1>
+                            <h1 class="last-name">Grover</h1>
+                            <div class="footer">
+                                <h4>MEP Mentor</h4>
+                                <a href="https://www.linkedin.com/in/rohit-grover-a09255190"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-44">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Saloni</h1>
+                            <h1 class="last-name">Asrani</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/saloni-asrani-4a70a9125/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-45">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Sameer</h1>
+                            <h1 class="last-name">Singla</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/sameer-singla-27160a1b4"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-46">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Sarthak</h1>
+                            <h1 class="last-name">Nagpal</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/sarthak-nagpal20/"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-47">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Satnam</h1>
+                            <h1 class="last-name">Tuteja</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-48">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Saurav</h1>
+                            <h1 class="last-name">Suman</h1>
+                            <div class="footer">
+                                <h4>EIC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/saurav-suman-1211b21ab"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-49">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Sayantan</h1>
+                            <h1 class="last-name">Pradhan</h1>
+                            <div class="footer">
+                                <h4>MECM Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-50">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Shrey</h1>
+                            <h1 class="last-name">Sharma</h1>
+                            <div class="footer">
+                                <h4>ECE Mentor</h4>
+                                <a href="http://linkedin.com/in/shrey-sharma-013492188"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-51">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Shriyanshi</h1>
+                            <h1 class="last-name">Agarwal</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-52">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Siddhant</h1>
+                            <h1 class="last-name">Kadu</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/siddhant-kadu-8806171a3"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-53">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1 class="sukhmanpreet">Sukhmanpreet</h1>
+                            <h1 class="last-name">Kaur</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="#"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-54">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Swarnim</h1>
+                            <h1 class="last-name">Shresth</h1>
+                            <div class="footer">
+                                <h4>ECE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/swarnim-shresth-a981831b1"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-55">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Tamanjit</h1>
+                            <h1 class="last-name">Singh</h1>
+                            <div class="footer">
+                                <h4>MEC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/tamanjit-singh-6447b71b3"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-56">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Tanmay</h1>
+                            <h1 class="last-name">Khandelwal</h1>
+                            <div class="footer">
+                                <h4>EIC Mentor</h4>
+                                <a href="https://www.linkedin.com/in/tanmay-khandelwal-a821311b4"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-57">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Vividh</h1>
+                            <h1 class="last-name">Mariya</h1>
+                            <div class="footer">
+                                <h4>COE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/vividhmariya"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-58">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Yashika</h1>
+                            <h1 class="last-name">Bansal</h1>
+                            <div class="footer">
+                                <h4>ECE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/yashika-bansal-08338810b"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-6">
+                <div class="card card-59">
+                    <div class="overlay">
+                        <div class="details">
+                            <h1>Yogendra</h1>
+                            <h1 class="last-name">Bhati</h1>
+                            <div class="footer">
+                                <h4>CSE Mentor</h4>
+                                <a href="https://www.linkedin.com/in/yogendra-bhati-00b2721a2"><i class="fab fa-linkedin pt-1"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

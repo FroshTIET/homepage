@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+body{
+    text-align:justify;
+
+}
+p {
+    margin-left:300px;
+    text-align: left;
+    font-size: large;
+    font-family: 'Neuton', serif;
+}
+.jumbotron{
+    padding-top:15%;
+    padding-bottom:15%;
+    margin-bottom:30px;
+    background-color:indigo;
+    background: url('https://admissions.thapar.edu/img/bg/banner1.jpg') center no-repeat;
+}
+img{
+    float: left;
+    margin-left:100px;
+}
